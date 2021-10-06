@@ -1,0 +1,11 @@
+bayestar-inject \
+	--seed 1 \
+	--loglevel error \
+	--cosmology Planck15 \
+	--distribution bns_astro \
+	--reference-psd psd.xml \
+	--f-low 20  \
+	--nsamples 10000 \
+	--waveform TaylorF2threePointFivePN \
+	-o inj_1000.xml \
+	-j 64
